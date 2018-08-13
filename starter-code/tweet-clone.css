@@ -1,0 +1,147 @@
+html {
+	height:100%;
+	width:100%;
+}
+body {
+	height:100%;
+  width:100%;
+  background: rgb(244, 248, 249);
+  font-family: Helvetica;
+}
+
+.tweet {
+  overflow: auto;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(225, 232, 237);
+  border-radius: 7px;
+  height: 300px; 
+  width: 1000px;
+}
+
+.user {
+  display: block;
+  height: 72px;
+
+  margin: 35px 35px 0 35px;
+}
+.profile {
+    float: left;
+    height: 100%;
+}
+
+.userinfo {
+  float: left;
+  height: 100%;
+  margin-left: 25px;
+}
+
+.username {
+    display: block;
+    overflow: auto;
+    position: relative;
+    height: 50% -5px;
+
+}
+
+.username img, .username p {
+    float: left;
+    padding: 3px 0px 0px 8px;
+}
+
+.username p {
+  margin: 0;
+  padding-top: 2px;
+  font-size: 30px;
+}
+
+.accountname {
+  float: left;
+  height: 50%;
+}
+
+.accountname p {
+  margin: 0;
+  padding: 5px 0 0 0;
+  font-size: 24px;
+  color: rgb(108, 115, 143);
+}
+
+.follow {
+  float: right;  
+  height: 100%;
+}
+
+.follow button {
+  background-color: rgb(255, 255, 255);
+  color:  rgb(85, 172, 238);
+  border: 2px solid  rgb(85, 172, 238);
+  padding: 0;
+  border-radius: 5px;
+  height: 60px;
+  width: 175px;
+  font-family: Helvetica;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.follow img {
+  float: left;
+  padding: 3px 8px 0 20px;
+}
+
+.follow p {
+  float: left;
+  padding: 1px 0px 0 0;
+  margin: 0;
+}
+
+.content {
+  margin: 20px 0 0 35px; 
+  font-size: 28px;
+}
+
+.content p {
+  margin: 0px;
+  padding: 10px 0 5px 0;
+}
+
+.date {
+  color: rgb(101, 116, 127);
+  font-weight: bold;
+}
+
+.date:hover {
+  text-decoration-line: underline;
+}
+.actions {
+  margin: 25px 20px 0px 0px;
+  height: 50px;
+}
+.actions img, .actions p {
+  float: left;
+}
+
+.actions img:hover {
+  cursor: pointer;
+}
+
+.reply {
+  float: left;
+  height: 100%;
+  margin-right: 40px;
+}
+
+.retweet {
+  float: left;
+  margin-right: 40px;
+}
+
+.retweet p, .favorite p {
+  margin: -15px 0 0 10px;
+  color: rgb(101, 116, 127);
+  font-weight: bold;
+}
+
+.favorite {
+  float: left;
+}
